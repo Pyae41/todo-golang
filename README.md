@@ -1,4 +1,12 @@
 # How to run
 First, install Golang if you don't exist in your local machine
 
-# Public URL For Demo - https://todo-golang-production.up.railway.app/
+After install
+go run main.go
+
+# For Frontend
+npm install
+npm run dev
+
+# Public URL For Demo
+URL - https://todo-golang-production.up.railway.app/
