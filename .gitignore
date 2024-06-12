@@ -1,0 +1,26 @@
+.env
+node_modules
+
+# Compiled Object files, Static and Dynamic libs (Shared Object)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+vendor/
+tmp/
+
+# Compiled Binary Files
+*.exe
+*.out
+
+# macOS static files
+.DS_Store
+
+# Go specific files
+# Compiled binary for packages and commands
+/bin/
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
