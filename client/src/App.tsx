@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar"
 import TodoForm from "./components/TodoForm"
 import TodoList from "./components/TodoList"
 
-export const BASE_URL = "http://127.0.0.1:8080/api";
+export const BASE_URL = import.meta.env.MODE === "development" ? "http://127.0.0.1:8080/api" : "/api";
 
 function App() {
 
